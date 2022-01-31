@@ -1,0 +1,45 @@
+.logoimages {
+  border-radius: 25px;
+  padding: 20px;
+  width: 45px;
+}
+
+body {
+  background-color: rgb(230, 230, 230);
+  font-size: 16px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  max-width: 100%;
+}
+
+.leftpicture {
+    display: flex;
+}
+
+.rightpicture {
+    display: flex;
+}
+
+a {
+  color: rgb(230, 230, 230);
+}
+
+header {
+  background-color: rgb(100, 149, 237);
+  color: rgb(221, 120, 25);
+  font-size: 20px;
+  padding: 30px;
+}
+
+footer {
+  background-color: rgb(100, 149, 237);
+  margin: auto;
+}
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+}
