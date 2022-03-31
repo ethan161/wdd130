@@ -1,1 +1,20 @@
-hi
+.darkblue {
+  color: #0160d6;
+}
+
+.lightblue {
+  color: #00aaf8;
+}
+
+.orange {
+  color: #f13b13;
+}
+
+.green {
+  color: #aab624;
+}
+
+* {
+  background-color: #f0ece9;
+  font-family: "Lato", sans-serif;
+}
