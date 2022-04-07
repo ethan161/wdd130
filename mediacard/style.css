@@ -1,0 +1,73 @@
+.temple {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10% 10% 0 0;
+}
+
+body {
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.03em;
+  }
+
+.card {
+    position: fixed;
+    max-width: 400px;
+    border-radius: 25px;
+    border-radius: 10%;
+    background-color: #eef2f3;
+}
+
+.like {
+    box-shadow: 0 0 30px rgb(0, 4, 53);
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding-bottom: 8px;
+    color: antiquewhite;
+    background: red;
+    border-radius: 45%;
+    top: 20px;
+    font-size: 45px;
+    left: 340px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.like:hover {
+    text-decoration: none;
+    color: gray;
+    background-color: #ddd;
+    transform: scale(1.2);
+  }
+
+h1 {
+    text-align: center;
+}
+
+.paragraph {
+    text-align: justify;
+    padding: 15px;
+}
+
+footer {
+    display: grid;
+    text-align: center;
+    font-variant: small-caps slashed-zero;
+    grid-template-columns: 1fr 1fr;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #8e9eab;
+    border-radius: 15%;
+    border-color: black;
+    border: 1px solid;
+    margin: 25px;
+    text-align: center;
+}
